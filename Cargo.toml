@@ -2,3 +2,9 @@
 name = "rsoup"
 version = "0.1.0"
 authors = ["Marvel Mathew <m@marvelmathew.ca>"]
+
+[dependencies.hyper]
+git = "https://github.com/hyperium/hyper"
+
+[dependencies.html5ever]
+git = "https://github.com/servo/html5ever"
